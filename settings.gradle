@@ -3,7 +3,6 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
-        maven { url = uri("https://dl.bintray.com/kotlin/kotlin-eap") }
     }
     plugins {
         id 'com.android.application' version '7.1.0-alpha05'
@@ -16,7 +15,6 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url = uri("https://dl.bintray.com/kotlin/kotlin-eap") }
     }
 }
 rootProject.name = "kotest-tutorial"
